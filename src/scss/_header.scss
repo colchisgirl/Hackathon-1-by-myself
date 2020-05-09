@@ -1,0 +1,27 @@
+header {
+    max-width: 100%;
+    background-color: $headerlightgray;
+    padding: 1em 10em;
+    display: flex;
+    justify-content: space-around;
+    img {
+        width: 5em;
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &__a {
+            text-decoration: none;
+            color: rgba($color: #111111, $alpha: .5);
+            padding: 0 1em;
+            font-size: 12px;
+        }
+
+        &__a:hover {
+            color: $textgrey;
+        }
+    }
+}
