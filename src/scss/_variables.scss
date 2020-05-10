@@ -3,3 +3,24 @@ $textgrey: rgb(17, 17, 17);
 $blue: #10A5F5;
 $footergrey: #343d46;
 $white: #ffffff;
+$lightergray: #ebecf0;
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.thispageheader {
+   
+        color: $textgrey !important;
+     
+}
+
+.thispagefooter {
+    text-decoration: none !important;
+    color: $white !important;
+}
